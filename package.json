@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "awesome-links",
   "version": "0.1.0",
   "private": true,
@@ -22,5 +23,29 @@
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.4",
     "typescript": "^4.9.4"
+=======
+  "name": "hello-next",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "hello-next": "file:",
+    "next": "12.0.10",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-markdown": "8.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.14",
+    "@types/react": "17.0.38",
+    "typescript": "4.5.5"
+>>>>>>> 684b5b80decf600b82e91502a887f622f6a58f13
   }
 }
