@@ -8,11 +8,7 @@
     ],
     "allowJs": true,
     "skipLibCheck": true,
-<<<<<<< HEAD
     "strict": true,
-=======
-    "strict": false,
->>>>>>> 684b5b80decf600b82e91502a887f622f6a58f13
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "esModuleInterop": true,
@@ -23,21 +19,12 @@
     "jsx": "preserve",
     "incremental": true
   },
-<<<<<<< HEAD
-=======
-  "exclude": [
-    "node_modules"
-  ],
->>>>>>> 684b5b80decf600b82e91502a887f622f6a58f13
   "include": [
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-<<<<<<< HEAD
   ],
   "exclude": [
     "node_modules"
-=======
->>>>>>> 684b5b80decf600b82e91502a887f622f6a58f13
   ]
 }
