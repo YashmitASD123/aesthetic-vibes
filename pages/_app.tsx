@@ -9,5 +9,6 @@ function MyApp({ Component, pageProps }:AppProps) {
     </Layout>
   );
 }
+console.log("aaa", MyApp)
 
 export default MyApp;
