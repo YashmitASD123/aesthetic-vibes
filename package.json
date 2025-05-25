@@ -17,5 +17,8 @@
   "scripts": {
     "build": "npm i --prefix backend && npm i --prefix frontend && npm run build --prefix frontend",
     "start": "npm start --prefix backend"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^9.0.2"
   }
 }

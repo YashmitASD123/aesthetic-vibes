@@ -3,7 +3,8 @@ import cors from "cors";
 import dotenv from "dotenv";
 import path from "path";
 
-import notesRoutes from "./routes/notes.routes.js";
+import itemsRoutes from "./routes/items.routes.js";
+import usersRoutes from "./routes/users.routes.js";
 import { connectDB } from "./config/db.js";
 import rateLimiter from "./middleware/rateLimiter.js";
 
@@ -30,7 +31,8 @@ app.use(rateLimiter);
 //   next();
 // });
 
-app.use("/api/notes", notesRoutes);
+app.use("/api/items", itemsRoutes);
+app.use("/api/users", usersRoutes);
 
 if (process.env.NODE_ENV === "production") {
   app.use(express.static(path.join(__dirname, "../frontend/dist")));
