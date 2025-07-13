@@ -2,41 +2,27 @@
 <p class="mt-4 text-lg">Your one-stop destination for aesthetic stickers!</p>
 <div class="divider"></div>
 <h2 class="text-2xl font-bold">Stickers</h2>
-<div class="card bg-base-100 w-96 shadow-sm">
-  <div class="card-body">
-    <figure>
-      <img
-        src="/"
-        alt="Shoes"
-      />
-    </figure>
-    <h2 class="card-title">Random Pokémon Sticker</h2>
-    <p>
-      Get a random Pokémon sticker! It can be anything, from Pikachu to
-      Charizard!
-    </p>
-    <div class="card-actions justify-end">
-      <button class="btn btn-primary">Get Sticker</button>
-    </div>
-  </div>
+<app-card
+  [title]="'Random Pokémon Sticker'"
+  [description]="'Get a random Pokémon sticker! It can be anything, from Pikachu to Charizard!'"
+  [image]="'/Sticker Image (1).jpeg'"
+  [price]="10"
+/>
 <div class="divider"></div>
 <h2 class="text-2xl font-bold">Sticker Packs</h2>
 <div class="card bg-base-100 w-96 shadow-sm">
   <div class="card-body">
     <figure>
-      <img
-        src="/Sticker Pack Image (1).jpeg"
-        alt="Shoes"
-      />
+      <img src="/Sticker Pack Image (1).jpeg" alt="Shoes" />
     </figure>
     <h2 class="card-title">Random Pokémon Sticker Pack</h2>
     <p>
       Get 5 random Pokémon stickers! It can be anything, from Pikachu to
       Charizard!
     </p>
-    <p>Price: </p>
+    <p>Price:</p>
     <div class="card-actions justify-end">
       <button class="btn btn-primary">Get Stickers</button>
     </div>
   </div>
-</div>e
+</div>
