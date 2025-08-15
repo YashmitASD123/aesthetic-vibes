@@ -1,0 +1,20 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/YashmitASD123/aesthetic-vibes#readme",
+  "bugs": {
+    "url": "https://github.com/YashmitASD123/aesthetic-vibes/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YashmitASD123/aesthetic-vibes.git"
+  },
+  "license": "ISC",
+  "author": "Ignacio536P",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "jest"
+  }
+}
