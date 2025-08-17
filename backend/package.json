@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "backend",
   "version": "1.0.0",
   "description": "",
@@ -12,9 +13,15 @@
   },
   "license": "ISC",
   "author": "Ignacio536P",
-  "type": "module",
   "main": "src/server.js",
   "scripts": {
-    "test": "jest"
+    "dev": "nodemon",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.17.1"
   }
 }
